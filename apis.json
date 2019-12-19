@@ -1,0 +1,97 @@
+{
+    "name": "CitySDK",
+    "description": "Waag Society, institute for art, science & technology, develops creative technology for social innovation. The foundation researches, develops concepts, pilots and prototypes and acts as an intermediate between the arts, science and the media. Waag Soc...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1830-citysdk.jpg",
+    "tags": [
+        "api provider",
+        "europe",
+        "have api",
+        "have swagger",
+        "netherlands"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/citysdk\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "CitySDK Linked Data",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1830-citysdk.jpg",
+            "humanURL": "http:\/\/citysdk.waag.org\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/citysdk-linked-data-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/citysdk-linked-data.json"
+                }
+            ]
+        },
+        {
+            "name": "CitySDK",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1830-citysdk.jpg",
+            "humanURL": "http:\/\/citysdk.waag.org\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/citysdk-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/citysdk.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.citysdk.eu\/category\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.citysdk.eu\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/waag-society"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/waagsociety\/citysdk"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1830-2019-09-03-23-27-28.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1830-2019-09-03-23-28-28.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/1830-2019-09-03-19-30-08.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/CitySDK"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/waag"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/citysdk.waag.org\/"
+        }
+    ]
+}

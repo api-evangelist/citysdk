@@ -1,0 +1,914 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "CitySDK Linked Data",
+        "description": "An API for the distribution and annotation of open data, for small cities and big metropolitan areas.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.citysdk.waag.org\/"
+    ],
+    "paths": {
+        "\/layers": {
+            "get": {
+                "summary": "Return all layers",
+                "description": "",
+                "operationId": "GETLayersFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create new layer",
+                "description": "",
+                "operationId": "POSTLayersFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}": {
+            "delete": {
+                "summary": "Delete a layer",
+                "description": "",
+                "operationId": "DELETELayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Return single layer",
+                "description": "",
+                "operationId": "GETLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Edit a layer",
+                "description": "",
+                "operationId": "PATCHLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/context": {
+            "get": {
+                "summary": "Return JSON-LD context of single layer",
+                "description": "",
+                "operationId": "GETLayersLayerContextFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "put": {
+                "summary": "Overwrite JSON-LD context of single layer",
+                "description": "",
+                "operationId": "PUTLayersLayerContextFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/fields": {
+            "get": {
+                "summary": "Return all fields of single layer",
+                "description": "",
+                "operationId": "GETLayersLayerFieldsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create new field for single layer",
+                "description": "",
+                "operationId": "POSTLayersLayerFieldsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/fields\/{field}": {
+            "delete": {
+                "summary": "Delete a single field on single layer",
+                "description": "",
+                "operationId": "DELETELayersLayerFieldsFieldFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "field",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Return single field of single layer",
+                "description": "",
+                "operationId": "GETLayersLayerFieldsFieldFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "field",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Edit single field on single layer",
+                "description": "",
+                "operationId": "PATCHLayersLayerFieldsFieldFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "field",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "put": {
+                "summary": "Overwrite single field on single layer",
+                "description": "",
+                "operationId": "PUTLayersLayerFieldsFieldFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "field",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/objects": {
+            "delete": {
+                "summary": "Delete all objects from a single layer",
+                "description": "",
+                "operationId": "DELETELayersLayerObjectsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Return all objects with data on single layer",
+                "description": "",
+                "operationId": "GETLayersLayerObjectsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Edit one or more objects and data on single layer",
+                "description": "",
+                "operationId": "PATCHLayersLayerObjectsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create one or more objects with data on single layer, or add data to existing objects (or a combination thereof)",
+                "description": "",
+                "operationId": "POSTLayersLayerObjectsFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/objects\/{cdk_id}": {
+            "get": {
+                "summary": "Return metadata of single layer about single object, e.g. the date the data was added\/modified, etc.",
+                "description": "",
+                "operationId": "GETLayersLayerObjectsCdkIdFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/layers\/{layer}\/owners": {
+            "get": {
+                "summary": "Return all owners associated with single layer",
+                "description": "",
+                "operationId": "GETLayersLayerOwnersFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/contextEntities\/{entity}": {
+            "get": {
+                "summary": "Return single context entity",
+                "description": "",
+                "operationId": "GETNgsi10ContextEntitiesEntityFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "entity",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/contextEntities\/{entity}\/attributes": {
+            "put": {
+                "summary": "Update attributes for single context entity",
+                "description": "",
+                "operationId": "PUTNgsi10ContextEntitiesEntityAttributesFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "entity",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/contextEntities\/{entity}\/attributes\/{attribute}": {
+            "get": {
+                "summary": "Return single context entity attribute",
+                "description": "",
+                "operationId": "GETNgsi10ContextEntitiesEntityAttributesAttributeFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "entity",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "attribute",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/contextEntityTypes\/{cetype}": {
+            "get": {
+                "summary": "Return objects of particular type",
+                "description": "",
+                "operationId": "GETNgsi10ContextEntityTypesCetypeFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cetype",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/contextEntityTypes\/{cetype}\/attributes\/{attribute}": {
+            "get": {
+                "summary": "Return objects of particular type",
+                "description": "",
+                "operationId": "GETNgsi10ContextEntityTypesCetypeAttributesAttributeFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cetype",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "attribute",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/queryContext": {
+            "post": {
+                "summary": "Query context broker for contextElements",
+                "description": "",
+                "operationId": "POSTNgsi10QueryContextFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/subscribeContext": {
+            "post": {
+                "summary": "Create a new context subscription",
+                "description": "",
+                "operationId": "POSTNgsi10SubscribeContextFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/unsubscribeContext": {
+            "post": {
+                "summary": "Delete a context subscription",
+                "description": "",
+                "operationId": "POSTNgsi10UnsubscribeContextFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/updateContext": {
+            "post": {
+                "summary": "Add or update NGSI contextElements",
+                "description": "",
+                "operationId": "POSTNgsi10UpdateContextFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/ngsi10\/updateContextSubscription": {
+            "post": {
+                "summary": "Update\/edit a context subscription",
+                "description": "",
+                "operationId": "POSTNgsi10UpdateContextSubscriptionFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/objects": {
+            "get": {
+                "summary": "Return all objects",
+                "description": "",
+                "operationId": "GETObjectsFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/objects\/{cdk_id}": {
+            "delete": {
+                "summary": "Delete a single object",
+                "description": "",
+                "operationId": "DELETEObjectsCdkIdFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Get a single object",
+                "description": "",
+                "operationId": "GETObjectsCdkIdFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Edit a single object",
+                "description": "",
+                "operationId": "PATCHObjectsCdkIdFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/objects\/{cdk_id}\/layers": {
+            "get": {
+                "summary": "Get all layers that contain data of single object",
+                "description": "",
+                "operationId": "GETObjectsCdkIdLayersFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/objects\/{cdk_id}\/layers\/{layer}": {
+            "delete": {
+                "summary": "Remove data on layer from single object",
+                "description": "",
+                "operationId": "DELETEObjectsCdkIdLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Return all data on single layer of single object",
+                "description": "",
+                "operationId": "GETObjectsCdkIdLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Update data on layer to single object",
+                "description": "",
+                "operationId": "PATCHObjectsCdkIdLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Add data on layer to single object",
+                "description": "",
+                "operationId": "POSTObjectsCdkIdLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "put": {
+                "summary": "Overwrite data on layer to single object",
+                "description": "",
+                "operationId": "PUTObjectsCdkIdLayersLayerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cdk_id",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "layer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/owners": {
+            "get": {
+                "summary": "Return all owners",
+                "description": "",
+                "operationId": "GETOwnersFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create new owner",
+                "description": "",
+                "operationId": "POSTOwnersFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/owners\/{owner}": {
+            "delete": {
+                "summary": "Delete owner - and all layers and data belonging to this owner",
+                "description": "",
+                "operationId": "DELETEOwnersOwnerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Get a single owner",
+                "description": "",
+                "operationId": "GETOwnersOwnerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Edit an owner",
+                "description": "",
+                "operationId": "PATCHOwnersOwnerFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/owners\/{owner}\/layers": {
+            "get": {
+                "summary": "Return all layers belonging to a single owner",
+                "description": "",
+                "operationId": "GETOwnersOwnerLayersFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        },
+        "\/session": {
+            "delete": {
+                "summary": "Close session",
+                "description": "",
+                "operationId": "DELETESessionFormat",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            },
+            "get": {
+                "summary": "Return a session key",
+                "description": "",
+                "operationId": "GETSessionFormat",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "Login name."
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "Login password."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "No response was specified"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}

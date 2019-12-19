@@ -1,0 +1,1473 @@
+{
+    "id": "b87ceaaa8001d91da123c996120e0806",
+    "name": "CitySDK Linked Data",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "a9d6377bead9e4f2f91df2bf8e398676",
+            "name": "Return all layers",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "af727e7bb89e130a990c0797bb8e876e",
+            "name": "Create new layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "255d8218b4781d17423935b7dabbc470",
+            "name": "Delete a layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "06c9135c9f4d85fc1af117b927dc27fe",
+            "name": "Return single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "5188b56bbb120aac353f79fce1e5f647",
+            "name": "Edit a layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "dd5ed8333c0b7032be90bb5fbdb5b571",
+            "name": "Return JSON-LD context of single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/context",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "b94b00a5c1b7f29e08ef5a2ac1367d89",
+            "name": "Overwrite JSON-LD context of single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/context",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "3223ad6a48f98fd3028e0cac92fecb50",
+            "name": "Return all fields of single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "671707a6c82708e5f8e3ccc2a584183d",
+            "name": "Create new field for single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "e71b1818b8f33eb1de832e79edf4f8cb",
+            "name": "Delete a single field on single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "field",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "c66eb7c4089974acecfdf19675d26b3b",
+            "name": "Return single field of single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "field",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c515f65f425e1a7821a03a39273e607",
+            "name": "Edit single field on single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "field",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "091e818773c8a3b718cc59e6ba400875",
+            "name": "Overwrite single field on single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "field",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "a48386c3d1b1f087dc3411691b22e5b3",
+            "name": "Delete all objects from a single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "4ea2d7e5b8b76929d0aa686237e3a0cf",
+            "name": "Return all objects with data on single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "5194ef4da819ec78403e620832cba868",
+            "name": "Edit one or more objects and data on single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "15eb46a86213444dc5567f26a128a8bf",
+            "name": "Create one or more objects with data on single layer, or add data to existing objects (or a combination thereof)",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "be082246aecaccedbc506e4bddaab721",
+            "name": "Return metadata of single layer about single object, e.g. the date the data was added\/modified, etc.",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects\/{cdk_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "e8e2598b4b50ea71d9720886c8ae5d5e",
+            "name": "Return all owners associated with single layer",
+            "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/owners",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "4bd99abee0ea7ae5fb017efeef17e8fa",
+            "name": "Return single context entity",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "entity",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "eb5556cc33d2bb449b35a59a1e618e0f",
+            "name": "Update attributes for single context entity",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}\/attributes",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "entity",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "c5b96f2f096065f52b9403fc7000eee4",
+            "name": "Return single context entity attribute",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}\/attributes\/{attribute}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "entity",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "attribute",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "a9ecd4025dcc82be9fa5d68e2242dac1",
+            "name": "Return objects of particular type",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntityTypes\/{cetype}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cetype",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "87ad77bbe68502fb87a5b72906271acf",
+            "name": "Return objects of particular type",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntityTypes\/{cetype}\/attributes\/{attribute}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cetype",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "attribute",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b6103fcefdbb3464750acf250d2d2e4",
+            "name": "Query context broker for contextElements",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/queryContext",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "da19cda82d8c911705e4cc93f6cf7e7b",
+            "name": "Create a new context subscription",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/subscribeContext",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "e3b111d5f5e7237220d0dd72e15f2c22",
+            "name": "Delete a context subscription",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/unsubscribeContext",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "796a722b9228334f591e928a71867646",
+            "name": "Add or update NGSI contextElements",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/updateContext",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "bde2b01c9892a7d22b46f67089330f3a",
+            "name": "Update\/edit a context subscription",
+            "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/updateContextSubscription",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "e11e20b233c08326817cf158d1c13184",
+            "name": "Return all objects",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "df08975fda1119f60da7d6a202ac15d5",
+            "name": "Delete a single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "f16a1f3339a9ef35f5e24030ef2b987c",
+            "name": "Get a single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "d4af0d9afc4859275d91a4dcc35c0e06",
+            "name": "Edit a single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "47945e6b08147f81a684a9268d09f61a",
+            "name": "Get all layers that contain data of single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "608a1f7bc5bcb3fda2b511cb3aafa5aa",
+            "name": "Remove data on layer from single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "8685e0c75d7833b1c1adf9b2b060d9be",
+            "name": "Return all data on single layer of single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "55e2689b916fe64fe5c1a3adc56041f5",
+            "name": "Update data on layer to single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "852b09056129097bf105494111c37acd",
+            "name": "Add data on layer to single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "450e3c952e85ba999a78aadf9013ee79",
+            "name": "Overwrite data on layer to single object",
+            "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cdk_id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "c58ca35756746495d49c23b238c8bcae",
+            "name": "Return all owners",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "a03b4bb74a5fa8d589bdb63d3f354a60",
+            "name": "Create new owner",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "64a048ffe0b5c31095ff8c94c72a3255",
+            "name": "Delete owner - and all layers and data belonging to this owner",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "owner",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "6607f2589177f6153bb512b832b9c1a3",
+            "name": "Get a single owner",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "owner",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "aa032e606f229419dca336aed9ae528c",
+            "name": "Edit an owner",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "owner",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "cc80f06468058106543d9655c8110f0f",
+            "name": "Return all layers belonging to a single owner",
+            "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}\/layers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "owner",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "009e4232d818a208d266443c6f5e5865",
+            "name": "Close session",
+            "url": "http:\/\/api.citysdk.waag.org\/\/session",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        },
+        {
+            "id": "c17a6e7c9899da4f78c858e910063b46",
+            "name": "Return a session key",
+            "url": "http:\/\/api.citysdk.waag.org\/\/session",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "Login name.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "password",
+                    "description": "Login password.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "rawModeData": ""
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "id": "b87ceaaa8001d91da123c996120e0806",
+    "id": "8785920c00c21dcf3e463c3644be2cdf",
     "name": "CitySDK Linked Data",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "a9d6377bead9e4f2f91df2bf8e398676",
+            "id": "d6705bbca1ebdc9087ae6098b81b80c3",
             "name": "Return all layers",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers",
             "description": "",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "af727e7bb89e130a990c0797bb8e876e",
+            "id": "baf1029592696003a8605b09e645f26e",
             "name": "Create new layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers",
             "description": "",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "255d8218b4781d17423935b7dabbc470",
+            "id": "38f262274793574c126ff082b518eb97",
             "name": "Delete a layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
             "description": "",
@@ -83,11 +83,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "06c9135c9f4d85fc1af117b927dc27fe",
+            "id": "2b35bd13c8d6e9ddcebfb251c078a0ce",
             "name": "Return single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
             "description": "",
@@ -114,11 +114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "5188b56bbb120aac353f79fce1e5f647",
+            "id": "7989e34302dd2b87bd12a6678c66e556",
             "name": "Edit a layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}",
             "description": "",
@@ -145,11 +145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "dd5ed8333c0b7032be90bb5fbdb5b571",
+            "id": "eee2a713fbac8afea236fd02c0631c7a",
             "name": "Return JSON-LD context of single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/context",
             "description": "",
@@ -176,11 +176,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "b94b00a5c1b7f29e08ef5a2ac1367d89",
+            "id": "029e74f23e72f81a9b3424b014492ecd",
             "name": "Overwrite JSON-LD context of single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/context",
             "description": "",
@@ -207,11 +207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "3223ad6a48f98fd3028e0cac92fecb50",
+            "id": "66e2ca2697884af73786c95465d1bc16",
             "name": "Return all fields of single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields",
             "description": "",
@@ -238,11 +238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "671707a6c82708e5f8e3ccc2a584183d",
+            "id": "8bd886ae45c8294e840c532f084c6a03",
             "name": "Create new field for single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields",
             "description": "",
@@ -269,11 +269,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "e71b1818b8f33eb1de832e79edf4f8cb",
+            "id": "b29605e1c629f5efab87a4f9cc155e92",
             "name": "Delete a single field on single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
             "description": "",
@@ -307,11 +307,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "c66eb7c4089974acecfdf19675d26b3b",
+            "id": "5328ab57bb6b359130366d4ac09b680b",
             "name": "Return single field of single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
             "description": "",
@@ -345,11 +345,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "7c515f65f425e1a7821a03a39273e607",
+            "id": "6241b19661d400ccb7fb1eac120c0db0",
             "name": "Edit single field on single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
             "description": "",
@@ -383,11 +383,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "091e818773c8a3b718cc59e6ba400875",
+            "id": "ee332b8da601af2331b592f2e9cd00b1",
             "name": "Overwrite single field on single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/fields\/{field}",
             "description": "",
@@ -421,11 +421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "a48386c3d1b1f087dc3411691b22e5b3",
+            "id": "cbe0d414bc6f8d1e12ee14753b8df703",
             "name": "Delete all objects from a single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
             "description": "",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "4ea2d7e5b8b76929d0aa686237e3a0cf",
+            "id": "75846b74b095c80becca317962de0c4a",
             "name": "Return all objects with data on single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
             "description": "",
@@ -483,11 +483,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "5194ef4da819ec78403e620832cba868",
+            "id": "ded02f2d1fd15ae06ebf3e2eda954455",
             "name": "Edit one or more objects and data on single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
             "description": "",
@@ -514,11 +514,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "15eb46a86213444dc5567f26a128a8bf",
+            "id": "7c211f5e1070727f93f6da3c65914132",
             "name": "Create one or more objects with data on single layer, or add data to existing objects (or a combination thereof)",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects",
             "description": "",
@@ -545,11 +545,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "be082246aecaccedbc506e4bddaab721",
+            "id": "4529d73444d8056b47d33d3d9fcd1629",
             "name": "Return metadata of single layer about single object, e.g. the date the data was added\/modified, etc.",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/objects\/{cdk_id}",
             "description": "",
@@ -583,11 +583,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "e8e2598b4b50ea71d9720886c8ae5d5e",
+            "id": "5816c241184f9d3dabf626f4e4bed465",
             "name": "Return all owners associated with single layer",
             "url": "http:\/\/api.citysdk.waag.org\/\/layers\/{layer}\/owners",
             "description": "",
@@ -614,11 +614,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "4bd99abee0ea7ae5fb017efeef17e8fa",
+            "id": "948158bcacc76d6f1f6bea52ef13057d",
             "name": "Return single context entity",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}",
             "description": "",
@@ -645,11 +645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "eb5556cc33d2bb449b35a59a1e618e0f",
+            "id": "8fcd52c34b4a37d86b1298bf85668d03",
             "name": "Update attributes for single context entity",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}\/attributes",
             "description": "",
@@ -676,11 +676,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "c5b96f2f096065f52b9403fc7000eee4",
+            "id": "3f2eb3039ab5cac447654417012ff8cc",
             "name": "Return single context entity attribute",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntities\/{entity}\/attributes\/{attribute}",
             "description": "",
@@ -714,11 +714,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "a9ecd4025dcc82be9fa5d68e2242dac1",
+            "id": "a35dfba814d16850a1af0527f8af8143",
             "name": "Return objects of particular type",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntityTypes\/{cetype}",
             "description": "",
@@ -745,11 +745,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "87ad77bbe68502fb87a5b72906271acf",
+            "id": "ff4cb06f4ac16fece6124fda98415e14",
             "name": "Return objects of particular type",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/contextEntityTypes\/{cetype}\/attributes\/{attribute}",
             "description": "",
@@ -783,11 +783,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "2b6103fcefdbb3464750acf250d2d2e4",
+            "id": "af2422f1ae755b69609e69e043d9333e",
             "name": "Query context broker for contextElements",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/queryContext",
             "description": "",
@@ -806,11 +806,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "da19cda82d8c911705e4cc93f6cf7e7b",
+            "id": "0676de111870579e371d1ae475c44651",
             "name": "Create a new context subscription",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/subscribeContext",
             "description": "",
@@ -829,11 +829,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "e3b111d5f5e7237220d0dd72e15f2c22",
+            "id": "110db10969f16390ef5bbb662b478479",
             "name": "Delete a context subscription",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/unsubscribeContext",
             "description": "",
@@ -852,11 +852,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "796a722b9228334f591e928a71867646",
+            "id": "98491e326d67bcd90647c121c0849812",
             "name": "Add or update NGSI contextElements",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/updateContext",
             "description": "",
@@ -875,11 +875,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "bde2b01c9892a7d22b46f67089330f3a",
+            "id": "19d836fbc3619cf641b7a3fb0dced555",
             "name": "Update\/edit a context subscription",
             "url": "http:\/\/api.citysdk.waag.org\/\/ngsi10\/updateContextSubscription",
             "description": "",
@@ -898,11 +898,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "e11e20b233c08326817cf158d1c13184",
+            "id": "b2a0fa84c907d28eb6a73943304aabea",
             "name": "Return all objects",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects",
             "description": "",
@@ -921,11 +921,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "df08975fda1119f60da7d6a202ac15d5",
+            "id": "97df3749e0378a63685a3f74b844b635",
             "name": "Delete a single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
             "description": "",
@@ -952,11 +952,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "f16a1f3339a9ef35f5e24030ef2b987c",
+            "id": "24841982aa930a994ec94e8acff1be3f",
             "name": "Get a single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
             "description": "",
@@ -983,11 +983,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "d4af0d9afc4859275d91a4dcc35c0e06",
+            "id": "56e82c7128448b302bb47ac2833e759a",
             "name": "Edit a single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}",
             "description": "",
@@ -1014,11 +1014,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "47945e6b08147f81a684a9268d09f61a",
+            "id": "ea7916e3cbcea2d06f4209a857c660c8",
             "name": "Get all layers that contain data of single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers",
             "description": "",
@@ -1045,11 +1045,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "608a1f7bc5bcb3fda2b511cb3aafa5aa",
+            "id": "1bcc11958eaf93670a88beb1c6b13d5e",
             "name": "Remove data on layer from single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
             "description": "",
@@ -1083,11 +1083,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "8685e0c75d7833b1c1adf9b2b060d9be",
+            "id": "0160fb24dbde08a110ffaf41a787a0f3",
             "name": "Return all data on single layer of single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
             "description": "",
@@ -1121,11 +1121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "55e2689b916fe64fe5c1a3adc56041f5",
+            "id": "0f1560529e1261895492e03561dfebba",
             "name": "Update data on layer to single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
             "description": "",
@@ -1159,11 +1159,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "852b09056129097bf105494111c37acd",
+            "id": "d7315dbac754ef888f3dd33a07ccc159",
             "name": "Add data on layer to single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
             "description": "",
@@ -1197,11 +1197,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "450e3c952e85ba999a78aadf9013ee79",
+            "id": "76d3be0705d5c1ae97a283e560bf497a",
             "name": "Overwrite data on layer to single object",
             "url": "http:\/\/api.citysdk.waag.org\/\/objects\/{cdk_id}\/layers\/{layer}",
             "description": "",
@@ -1235,11 +1235,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "c58ca35756746495d49c23b238c8bcae",
+            "id": "7cb124ad8f4f7f49e2e2adc0c40c4564",
             "name": "Return all owners",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners",
             "description": "",
@@ -1258,11 +1258,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "a03b4bb74a5fa8d589bdb63d3f354a60",
+            "id": "2dc6981c836f096300a716a6e13573e1",
             "name": "Create new owner",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners",
             "description": "",
@@ -1281,11 +1281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "64a048ffe0b5c31095ff8c94c72a3255",
+            "id": "8103ca491de82f0e57ef54540b2c67af",
             "name": "Delete owner - and all layers and data belonging to this owner",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
             "description": "",
@@ -1312,11 +1312,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "6607f2589177f6153bb512b832b9c1a3",
+            "id": "48b3c5796b6f2974c0cfdadd12cdb715",
             "name": "Get a single owner",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
             "description": "",
@@ -1343,11 +1343,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "aa032e606f229419dca336aed9ae528c",
+            "id": "3656a8176688ac60bd58ee7c46b810b9",
             "name": "Edit an owner",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}",
             "description": "",
@@ -1374,11 +1374,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "cc80f06468058106543d9655c8110f0f",
+            "id": "5de7f17a54c41c3badcf2843f247a3c8",
             "name": "Return all layers belonging to a single owner",
             "url": "http:\/\/api.citysdk.waag.org\/\/owners\/{owner}\/layers",
             "description": "",
@@ -1405,11 +1405,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "009e4232d818a208d266443c6f5e5865",
+            "id": "7763e3567a78461e9766f831045c93c3",
             "name": "Close session",
             "url": "http:\/\/api.citysdk.waag.org\/\/session",
             "description": "",
@@ -1428,11 +1428,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         },
         {
-            "id": "c17a6e7c9899da4f78c858e910063b46",
+            "id": "3c7422e6112b1005d2fdd30b39435c91",
             "name": "Return a session key",
             "url": "http:\/\/api.citysdk.waag.org\/\/session",
             "description": "",
@@ -1466,7 +1466,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b87ceaaa8001d91da123c996120e0806",
+            "collectionId": "8785920c00c21dcf3e463c3644be2cdf",
             "rawModeData": ""
         }
     ]

@@ -1,0 +1,32 @@
+aid: citysdk
+name: CitySDK
+description: "Open APIs for select European cities"
+url: http://www.citysdk.eu/citysdk-toolkit/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: CitySDK
+    description: "Open APIs for select European cities"
+    humanURL: http://www.citysdk.eu/citysdk-toolkit/
+    baseURL: http://www.citysdk.eu/citysdk-toolkit/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://www.citysdk.eu/citysdk-toolkit/
+common:
+  - type: Website
+    url: http://www.citysdk.eu/citysdk-toolkit/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

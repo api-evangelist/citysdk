@@ -39,7 +39,6 @@ apis:
   - name: CitySDK
     description: "Open APIs for select European cities"
     humanURL: http://www.citysdk.eu/citysdk-toolkit/
-    baseURL: http://www.citysdk.eu/citysdk-toolkit/
     tags:
       - Geocoding
     properties:
